@@ -84,4 +84,27 @@ Wire Wire Line
 Connection ~ 4850 2850
 Wire Wire Line
 	4850 2850 4750 2850
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5FBDCA7E
+P 3600 2250
+F 0 "BT?" H 3718 2346 50  0000 L CNN
+F 1 "Battery_Cell" H 3718 2255 50  0000 L CNN
+F 2 "" V 3600 2310 50  0001 C CNN
+F 3 "~" V 3600 2310 50  0001 C CNN
+	1    3600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2050 3600 1650
+Wire Wire Line
+	2000 1650 2000 1950
+Wire Wire Line
+	2000 1650 3600 1650
+Wire Wire Line
+	1950 1950 2000 1950
+Wire Wire Line
+	1950 1950 1950 2350
+Wire Wire Line
+	1950 2350 3600 2350
 $EndSCHEMATC
