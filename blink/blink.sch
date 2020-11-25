@@ -25,7 +25,7 @@ F 3 "" H 4750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4750 2250 5300 2250
+	4750 2250 4850 2250
 $Comp
 L Device:R R1
 U 1 1 5FBDBA5D
@@ -38,7 +38,7 @@ F 3 "~" H 5300 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2850 4750 2850
+	5300 2850 4850 2850
 Wire Wire Line
 	4750 2850 4750 2950
 $Comp
@@ -63,4 +63,25 @@ F 3 "~" H 5300 2400 50  0001 C CNN
 	1    5300 2400
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FBDCB34
+P 4850 2550
+F 0 "D?" V 4889 2432 50  0000 R CNN
+F 1 "LED" V 4798 2432 50  0000 R CNN
+F 2 "" H 4850 2550 50  0001 C CNN
+F 3 "~" H 4850 2550 50  0001 C CNN
+	1    4850 2550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4850 2400 4850 2250
+Connection ~ 4850 2250
+Wire Wire Line
+	4850 2250 5300 2250
+Wire Wire Line
+	4850 2700 4850 2850
+Connection ~ 4850 2850
+Wire Wire Line
+	4850 2850 4750 2850
 $EndSCHEMATC
