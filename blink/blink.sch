@@ -91,4 +91,27 @@ $EndComp
 Connection ~ 4850 2850
 Wire Wire Line
 	4850 2850 5300 2850
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5FBDEFE5
+P 2950 2400
+F 0 "BT?" H 3068 2496 50  0000 L CNN
+F 1 "Battery_Cell" H 3068 2405 50  0000 L CNN
+F 2 "" V 2950 2460 50  0001 C CNN
+F 3 "~" V 2950 2460 50  0001 C CNN
+	1    2950 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 -1800 16000 -1800
+Wire Wire Line
+	16000 -1800 16000 -4200
+Wire Wire Line
+	2950 2200 2950 1550
+Wire Wire Line
+	2950 1550 3700 1550
+Wire Wire Line
+	3700 1550 3700 2500
+Wire Wire Line
+	3700 2500 2950 2500
 $EndSCHEMATC
