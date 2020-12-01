@@ -106,7 +106,7 @@ Wire Wire Line
 Wire Wire Line
 	16000 -1800 16000 -4200
 Wire Wire Line
-	2950 2200 2950 1550
+	2950 2200 2950 2050
 Wire Wire Line
 	2950 1550 3700 1550
 Wire Wire Line
@@ -164,4 +164,17 @@ Wire Wire Line
 Connection ~ 3600 2500
 Wire Wire Line
 	3600 2500 2950 2500
+$Comp
+L Device:R R?
+U 1 1 5FC5E211
+P 2950 1900
+F 0 "R?" H 3020 1946 50  0000 L CNN
+F 1 "R" H 3020 1855 50  0000 L CNN
+F 2 "" V 2880 1900 50  0001 C CNN
+F 3 "~" H 2950 1900 50  0001 C CNN
+	1    2950 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1750 2950 1550
 $EndSCHEMATC
