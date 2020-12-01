@@ -110,7 +110,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 1550 3700 1550
 Wire Wire Line
-	3700 2500 2950 2500
+	3700 2500 3600 2500
 Wire Wire Line
 	4850 2550 4850 2750
 Wire Wire Line
@@ -146,4 +146,22 @@ Wire Wire Line
 Connection ~ 4950 3050
 Wire Wire Line
 	4950 3050 5300 3050
+$Comp
+L power:+1V0 #PWR?
+U 1 1 5FC59A04
+P 3950 2550
+F 0 "#PWR?" H 3950 2400 50  0001 C CNN
+F 1 "+1V0" H 3965 2723 50  0000 C CNN
+F 2 "" H 3950 2550 50  0001 C CNN
+F 3 "" H 3950 2550 50  0001 C CNN
+	1    3950 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2550 3600 2550
+Wire Wire Line
+	3600 2550 3600 2500
+Connection ~ 3600 2500
+Wire Wire Line
+	3600 2500 2950 2500
 $EndSCHEMATC
